@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="caculator.css">
+    <title></title>
+</head>
+<body>
+ 
+
+<!--   divs that holds the forms containing uthe inputs   -->
+    <div class="main">
+            <form name="form" class="form">
+                    <input type="text" class="inputscreen" name="textview">
+                   
+                </form>
+            </div>
+
+
+   <!-- container that holds the calcultor  buttons  -->
+<div class="container">
+  <table >
+   <td>
+        <div class="box" value="%" onclick="insert('%')">%</div>
+        <div class="box" value="7" onclick="insert(7)">7</div>
+        <div class="box" value="1" onclick="insert(4)">4</div>
+        <div class="box" value="1" onclick="insert(1)">1</div>
+        <div class="box" value="0" onclick="insert(0)">0</div>
+        
+        </td>
+
+    <td>
+        <div class="box" value="*" onclick="insert('*')">x</div>
+        <div class="box" value="+" onclick="insert(8)">8</div>
+        <div class="box" value="5" value="5" onclick="insert(5)">5</div>
+        <div class="box" value="2" onclick="insert(2)">2</div>
+        <div class="box clear" value="c" onclick="c('c')">c</div>
+       </td>
+
+       <td>
+        <div class="box" value="/" onclick="insert('/')">/</div>
+        <div class="box"  value="9" onclick="insert('9')">9</div>
+        <div class="box" value="6" onclick="insert(6)">6</div>
+        <div class="box" value="3" onclick="insert(3)">3</div>
+        <div class="box" value="." onclick="insert('.')">.</div>
+        
+       </td>
+
+       
+
+       <td>
+        <div class="box" value="-" onclick="insert('-')">-</div>
+        <div class="box" value="=" onclick="calculate()">=</div>
+        <div class="box addition" value="+" onclick="insert('+')">+</div>
+    </td> 
+
+</table>
+</div>
+
+
+
+
+
+    <script src="caculator.js"></script>
+</body>
+</html>

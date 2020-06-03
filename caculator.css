@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+background:linear-gradient(to left,rgb(39, 0, 61),rgb(19, 2, 2));
+}
+
+/* styling of input screen that display  the values*/
+.inputscreen{
+    height:10vh;
+    width: 21.2vw;
+    font-size: 1.5em;
+    color: #c00303;
+    border: 3px solid #d18100;
+    position: relative;
+    top: 6em;
+    left: 40%;
+}
+
+/* styling of the container holding the buttons */
+.container{
+    position: relative;
+    left: 40%;
+    top: 10em;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 9px #c634ff;
+    width: 21.7%;
+    border: 3px solid rgb(14, 29, 29);
+}
+
+/* styling of the buttons using a general class name given to all */
+.box{
+margin: 3%;
+height: 10vh;
+width: 5vw;
+background-color: #00b47e;
+text-align: center;
+box-sizing: border-box;
+padding-top: 1em;
+border-radius: 20%;
+font-size: 1.5em;
+cursor: pointer;
+}
+
+.box:active{
+color: #000000;
+background-color: #ffffff;
+}
+
+
+/* styling of the addition button  */
+.addition{
+    height: 30vh;
+    margin-top: 6%;
+    box-sizing: border-box;
+    padding-top: 3.5em;
+}
